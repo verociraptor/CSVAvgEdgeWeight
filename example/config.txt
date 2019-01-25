@@ -1,0 +1,2 @@
+Prefix plugins/CSVAvgEdgeWeight/example/
+Plugin CSVAvgEdgeWeight inputfile edges.csv outputfile none
