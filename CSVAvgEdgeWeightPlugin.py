@@ -17,12 +17,13 @@ class CSVAvgEdgeWeightPlugin:
 		
 	
 	def output(self, filename):
-		total = 0
-		elements = 0
+		total_weights = 0
+		total_edges = 0
 		for row in self.edge_weight:
 			for i in range(0, len(row)):
-				total += float(row[i])
-				elements += 1
+				if(float(row[i]) > 0)
+					total += float(row[i])
+					elements += 1
 		
 		average = (total / elements)
 
