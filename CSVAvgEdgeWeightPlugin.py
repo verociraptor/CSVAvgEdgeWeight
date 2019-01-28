@@ -21,10 +21,10 @@ class CSVAvgEdgeWeightPlugin:
 		total_edges = 0
 		for row in self.edge_weight:
 			for i in range(0, len(row)):
-				if(float(row[i]) > 0)
-					total += float(row[i])
-					elements += 1
+				if(float(row[i]) > 0):
+					total_weights += float(row[i])
+					total_edges += 1
 		
-		average = (total / elements)
+		average = (total_weights / total_edges)
 
 		print "Average edge weight: ", average
