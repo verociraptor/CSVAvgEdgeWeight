@@ -27,4 +27,4 @@ class CSVAvgEdgeWeightPlugin:
 		
 		average = (total_weights / total_edges)
 
-		print "Average edge weight: ", average
+		print("Average edge weight: ", average)
